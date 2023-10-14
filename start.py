@@ -24,5 +24,6 @@ while True:
 	print(aqr.read())
 	os.system("play-audio jumpscare.mp3")
 	os.system("dialog --msgbox they only seem like they care about YOUR causes 60 60")
-	os.system("dialog --msgbox thank you for playing 60 60")
+	os.system("dialog --msgbox ... 60 60")
+	qrcd = qrcode.make("")
 	break
