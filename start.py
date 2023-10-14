@@ -25,5 +25,7 @@ while True:
 	os.system("play-audio jumpscare.mp3")
 	os.system("dialog --msgbox they only seem like they care about YOUR causes 60 60")
 	os.system("dialog --msgbox ... 60 60")
-	qrcd = qrcode.make("")
+	qrcd = qrcode.make("https://anotepad.com/notes/kdst5asf")
+	qrcd.save("hasshowed.png")
+	os.system("terminage hasshowed.png")
 	break
