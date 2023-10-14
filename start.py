@@ -27,5 +27,5 @@ while True:
 	os.system("dialog --msgbox ... 60 60")
 	qrcd = qrcode.make("https://anotepad.com/notes/kdst5asf")
 	qrcd.save("hasshowed.png")
-	os.system("terminage hasshowed.png")
+	os.system("termimage hasshowed.png")
 	break
